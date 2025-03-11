@@ -7,7 +7,7 @@ const userRoutes = require('./routes/userRoutes');
 
 app.use('/user',userRoutes);
 
-
+//for testing
 app.listen(3001, ()=>{
     console.log('listening on port 3000');
   })
